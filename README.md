@@ -1,8 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Context-API-App
+
+**This app has a minimum functionality.
+It supposed to show deep understanding in the context api of react.
+Every piece of state in this application pass ONLY from context providers (parent/child props was not implemented here on purpose). 
+In this application you can generate a unique avatar from any kind of name, numbers, signs or adress you like. Every avatar is unique**
+
+**This simple application build from 2 contexts providers:**
+**1- Theme Context - which wrap the entire application and let you change the theme on every single component in the app**
+**2- Avatar Context - which responsible on getting the data from specific components and setting this data**
+
+## dependencies
+`bootstrap`
+`react-bootstrap`
+`react-switch`
 
 ## Available Scripts
 
+**use npm i in the root directory to intall all the dependecies**
+
 In the project directory, you can run:
+
+### `npm install`
+install all the dependencies to run this project
 
 ### `npm start`
 
