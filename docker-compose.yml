@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  test1:
+    image: context_app_image
+    ports:
+      - 1000:3000
+    command: npm start
+
+  test2:
+    image: context_app_image
+    ports:
+      - 2000:3000
+    command: npm start
